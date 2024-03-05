@@ -1,0 +1,7 @@
+services:
+  consumer:
+    container_name: consumer
+    build: ./ 
+    command: npm start
+    ports:
+      - "3001:3001"
